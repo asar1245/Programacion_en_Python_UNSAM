@@ -39,7 +39,7 @@ Podemos ver esto como un "objeto" con tres partes:
 
 * Nombre del símbolo ("Manzanas", una cadena)
 * Número o cantidad (100, un entero)
-* Precio (490.10 un flotante)
+* Precio (490.10, un flotante)
 
 ### Tuplas
 
@@ -60,7 +60,7 @@ Los contenidos de una tupla están ordenados (como en una lista).
 s = ('Manzana', 100, 490.1)
 nombre = s[0]                   # 'Manzana'
 cantidad = s[1]                 # 100
-precio= s[2]                    # 490.1
+precio = s[2]                    # 490.1
 ```
 
 El contenido de las tuplas no puede ser modificado.
@@ -166,7 +166,7 @@ s[2] # lista
 ## Ejercicios
 
 Anteriormente escribiste un programa que leía el archivo
-`Data/camion.csv` usando el módulo `csv` para leer el archivo fila por fila.
+`camion.csv` usando el módulo `csv` para leer el archivo fila por fila.
 
 ```python
 >>> import csv
@@ -373,7 +373,7 @@ Si tenés tuplas como en `items` podés crear un diccionario usando la función 
 
 
 ### Ejercicio 2.14: Diccionario geringoso.
-Construí una función que, a partir de una lista de palabras, devuelva un diccionario geringoso. Las claves del diccionario deben las palabras de la lista y los valores deben ser sus traducciones al geringoso (como en el [Ejercicio 1.18](../01_Introduccion/04_Strings.md#ejercicio-118-geringoso-rústico)). 
+Construí una función que, a partir de una lista de palabras, devuelva un diccionario geringoso. Las claves del diccionario deben ser las palabras de la lista y los valores deben ser sus traducciones al geringoso (como en el [Ejercicio 1.18](../01_Introduccion/04_Strings.md#ejercicio-118-geringoso-rústico)). 
 Probá tu función para la lista `['banana', 'manzana', 'mandarina']`.
 Guardá este ejercicio en un archivo `diccionario_geringoso.py` para entregar al final de la clase.
 

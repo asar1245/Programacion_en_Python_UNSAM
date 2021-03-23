@@ -154,13 +154,13 @@ Para saltear un elemento y moverse al siguiente, usá el comando `continue`.
 
 ```python
 for line in lines:
-    if line == '\n':    # Salteo las líneas en blanco
+    if line == '\n':    # Salteo las instrucciones que procesan líneas
         continue
-    # Más instrucciones
+    # Instrucciones que procesan líneas
     ...
 ```
 
-Ésta es útil cuando el elemento actual no es de interés o es necesario ignorarlo en el procesamiento.
+Éste es útil cuando el elemento encontrado no es de interés o es necesario ignorarlo en el procesamiento.
 
 ### Ciclos sobre enteros
 
@@ -221,7 +221,7 @@ for x in s:
     i += 1
 ```
 
-Al usar `enumerate` tenemos que tipear menos y el programa funciona un toque más rápido.
+Al usar `enumerate` tenemos que tipear menos y el programa funciona un poco más rápido.
 
 ### Tuplas y ciclos for
 
@@ -331,7 +331,7 @@ A veces los comandos for, len(), y range() son combinados para recorrer listas:
 >>>
 ```
 
-Sin embargo, Python tiene mejores alternativas para esto. Te recomendamos familiarizarte con ellas y usarlas: por su simpleza producen código más legible y reducen la posibilidad de un bug en el código. Simplemente usa un ciclo `for` normal si querés iterar sobre los elementos de la variable `data`.  Y usá `enumerate()` si necesitás tener el índice por algún motivo.
+Sin embargo, Python tiene mejores alternativas para esto. Te recomendamos familiarizarte con ellas y usarlas: por su simpleza producen código más legible y reducen la posibilidad de un bug en el código. Simplemente usá un ciclo `for` normal si querés iterar sobre los elementos de la variable `data`.  Y usá `enumerate()` si necesitás tener el índice por algún motivo.
 
 ### Ejercicio 3.3: Un ejemplo práctico de enumerate()
 Recordá que el archivo  `Data/missing.csv` contiene datos sobre los cajones de un camión, pero tiene algunas filas que faltan. Usando `enumerate()`,

@@ -49,7 +49,7 @@ with open(nombre_archivo, 'rt') as file:
 
 Esto cierra automáticamente el archivo cuando se termina de ejecutar el bloque indentado.
 
-_Observación: En algunos sistemas operativos es probable que le tengas que especificar el_ enocoding _agregando `encoding='utf8'` como parámetro al comando `open`._
+_Observación: En algunos sistemas operativos es probable que le tengas que especificar el_ encoding _agregando `encoding='utf8'` como parámetro al comando `open`._
 
 ### Comandos usuales para leer un archivo
 
@@ -94,7 +94,7 @@ Estos ejercicios usan el archivo `Data/camion.csv`.  El archivo contiene una lis
 ```python
 >>> import os
 >>> os.getcwd()
-'/Users/profe/Desktop/curso-python/Ejercicios' # La salida va a cambiar
+'/Users/profe/Desktop/ejercicios_python/Clase02/' # La salida va a cambiar
 >>>
 ```
 
@@ -190,7 +190,7 @@ Tu programa debería imprimir una salida como la siguiente:
 Costo total 47671.15
 ```
 
-Acordate de guardar tu archivo. Vamos a volver a trabajar sobre él.
+Acordate de guardar tu archivo en el directorio `Clase02`; vamos a volver a trabajar sobre él.
 
 ### Ejercicio 2.3: Precio de la naranja
 El archivo `Data/precios.csv` contiene una serie de líneas con precios de venta de cajones en el mercado al que va el camión. El archivo se ve así:
